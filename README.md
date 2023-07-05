@@ -1,44 +1,50 @@
 <a name="readme-top"></a>
 
+
+<!-- TABLE OF CONTENTS -->
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Run tests](#run-tests)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
-  -- [🙏 Acknowledgements](#acknowledgements)
+- [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [portfolio-01] <a name="portfolio-01"></a>
+<!-- PROJECT DESCRIPTION -->
 
-**[portfolio-01]** this is my Portfolio project which i started by implementing mobile-first view.
+# 📖 Portfolio <a name="about-project"></a>
+
+- This website shows a sneak peek into the projects I have developed and deployed, showcasing my skills in HTML and CSS.With a passion for web development, I have honed my expertise in these technologies to create stunning and functional websites.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+- HTML
+- CSS
+- linter
 
-.HTML 
-.CSS
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-- Portfolio webpage
-- Mobile first development
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Key Features
+
+- Use the Figma design for the project😊👌
+- Use the semantics elements💯
+-  Use the linter for fixing errors .🚀
+- Use the flexbox to place the items 😃👍
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-Creating your first "portfolio-01" project
+
 
 To get a local copy up and running, follow these steps.
 
@@ -46,30 +52,80 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
--A Git hub account
 
--Visual Studio Code or any other code editor of your preference
+Example command:
 
--web browser
+```sh
+1.use a browser
+2.use cable internet
+```
+ 
 
 ### Setup
 
-Clone this repository to your desired folder:<br>
-https://github.com/brighton0102/portfolio-01
+Clone this repository to your desired folder:
+
+
+Example commands:
+
+```sh
+  
+  git clone git@github.com:brighton0102/portfolio-01.git
+  cd portfolio-01
+
+
+```
+
 
 ### Install
 
 Install this project with:
 
-Github
-Vs code
-to be able to access the code
+
+Example command:
+
+```sh
+  npm install
+```
+
 
 ### Usage
 
 To run the project, execute the following command:
 
-Open index.html using live server extension.
+
+Example command:
+
+```sh
+- Open the index with live server.
+- Or if you don't have a live server extension open the index in the browser by clicking on the file .
+```
+
+
+### Run tests
+
+To run tests for the linter, run the following command:
+
+
+Example command:
+
+```sh
+npx hint .
+npx eslint .
+```
+
+
+### Deployment
+
+You can deploy this project using:
+
+- Github Pages
+- Render.com
+- Netlify.com
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -79,13 +135,18 @@ Open index.html using live server extension.
 - Twitter: [@brighton_ui](https://twitter.com/brighton_ui)
 - LinkedIn: [brighton](https://www.linkedin.com/in/brighton-mtandi-976615267/)
 
-<!-- FUTURE FEATURES-->
 
-### Future Features <a name="Future-features"></a>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- **[Clickable-elements]**
-- **[Intaraction-page]**
-- **[Contact-form]**
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] Add Javascript.
+- [ ] Add more styling💯.
+- [ ] Add Popup window for the deatils of each project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -93,24 +154,35 @@ Open index.html using live server extension.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/brighton0102/portfolio-01/issues).
+Feel free to check the [Isuues Pages](https://github.com/brighton0102/portfolio-01/issues)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, kindly leave a comment below and share it with other web developers and lets enjoy this journey together.
+
+If you like this project kindly give it a star⭐️.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="Microverse Inc."></a>
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to acknowledge my coding partners who helped me work on this project and meet my deadlines.
 
-  <!-- LICENSE -->
+I would like to thank Ekpenisi E Raphael for the immense support.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](https://github.com/brighton0102/portfolio-01/blob/main/LICENSE) licensed.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
