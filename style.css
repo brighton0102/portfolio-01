@@ -24,12 +24,12 @@ body {
   background-image: url('./img/background.png');
   background-repeat: no-repeat;
   background-size: 100% auto;
-  min-height: 587.15px;
   border-bottom-left-radius: 90px;
   padding: 0 24px;
   background-color: #fff;
   background-position: center;
   margin-bottom: 114px;
+  height: 100vh;
 }
 
 header {
@@ -56,9 +56,9 @@ li a {
 
 .bar {
   display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
+  width: 22px;
+  height: 2.5px;
+  margin: 4px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #6070ff;
@@ -66,7 +66,7 @@ li a {
 }
 
 .title {
-  padding-top: 128px;
+  padding-top: 125px;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
