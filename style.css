@@ -209,12 +209,12 @@ a button {
 }
 
 a button:hover {
-  background-color: #6070FF;
+  background-color: #6070ff;
   color: #fff;
 }
 
 a button:active {
-  background-color: #2230D2;
+  background-color: #2230d2;
   color: #fff;
 }
 
@@ -312,12 +312,12 @@ a button:active {
 }
 
 .icons-btn:hover {
-  background-color: #6070FF;
+  background-color: #6070ff;
   color: #fff;
 }
 
 .icons-btn:active {
-  background-color: #2230D2;
+  background-color: #2230d2;
   color: #fff;
 }
 
