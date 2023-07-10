@@ -339,3 +339,112 @@ a button:active {
   border-bottom: 1px solid #dfe1e6;
   margin-bottom: 24px;
 }
+
+/* Contact Me */
+
+.Contact-Container {
+  background-color: #fff;
+  padding-top: 117px;
+}
+
+.contact-me {
+  margin: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  background: #6070ff;
+  background-image: url('./img/contact-form-shapes-mobile.svg');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  border-top-left-radius: 90px;
+  padding-top: 103px;
+}
+
+.Contact-Container h2 {
+  font-family: Poppins, serif, sans serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+}
+
+.contact-me p {
+  font-family: Poppins, serif, sans serif;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  padding-top: 12px;
+}
+
+.contact-me p,
+.contact-me h2 {
+  text-align: center;
+}
+
+input {
+  border-radius: 0;
+  border-radius: 8px;
+  padding: 15px 38px 15px 16px;
+  border: 1px solid #cfd8dc;
+  margin-top: 20px;
+  font-family: Poppins, serif, sans serif;
+  font-weight: 400px;
+  color: #172b4d;
+  font-size: 17px;
+}
+
+textarea {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  margin-top: 18px;
+  padding: 15px 38px 15px 16px;
+  font-family: Poppins, serif, sans serif;
+  font-weight: 400px;
+  color: #172b4d;
+  font-size: 17px;
+}
+
+.contact-btn {
+  font-family: Poppins, serif, sans serif;
+  background-color: #fff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  color: #396df2;
+  padding: 12px;
+  text-align: left !important;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  margin-top: 15px;
+  letter-spacing: 0.03em;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+}
+
+.contact-btn:hover {
+  background-color: #396df2;
+  color: #fff;
+}
+
+.contact-btn:active {
+  opacity: 0.7;
+}
+
+.end-bar {
+  margin: auto;
+  width: 134px;
+  height: 5px;
+  bottom: 8px;
+  background: #ffff;
+  border-radius: 10px;
+  margin-top: 32px;
+}
