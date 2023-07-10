@@ -429,22 +429,3 @@ form textarea {
   display: block;
   width: 100%;
 }
-
-.contact-btn:hover {
-  background-color: #396df2;
-  color: #fff;
-}
-
-.contact-btn:active {
-  opacity: 0.7;
-}
-
-.end-bar {
-  margin: auto;
-  width: 134px;
-  height: 5px;
-  bottom: 8px;
-  background: #ffff;
-  border-radius: 10px;
-  margin-top: 32px;
-}
