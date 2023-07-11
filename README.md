@@ -135,6 +135,12 @@ You can deploy this project using:
 - Twitter: [@brighton_ui](https://twitter.com/brighton_ui)
 - LinkedIn: [brighton](https://www.linkedin.com/in/brighton-mtandi-976615267/)
 
+👤 **Linh Chi Nguyen**
+
+- GitHub: [@ayaderaghul](https://github.com/ayaderaghul)
+- Twitter: [@ayaderaghul](https://twitter.com/ayaderaghul)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/linh-chi-n-371139180/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
