@@ -350,19 +350,14 @@ a button:active {
 .contact-me {
   margin: auto;
   padding-left: 24px;
+  padding-right: 24px;
   background: #6070ff;
   border-top-left-radius: 90px;
   padding-top: 30px;
   padding-bottom: 10px;
-}
-
-.contact-background {
   background-image: url('./img/contact-form-shapes-mobile.svg');
   background-repeat: no-repeat;
-  background-size: 90% 100%;
   background-position-x: right;
-  padding-top: 80px;
-  padding-right: 24px;
 }
 
 .Contact-Container h2 {
@@ -372,6 +367,7 @@ a button:active {
   font-size: 40px;
   line-height: 52px;
   color: #fff;
+  padding-top: 103px;
 }
 
 .contact-me p {
@@ -450,6 +446,7 @@ form textarea {
   width: 134px;
   height: 5px;
   bottom: 8px;
+  border: #0d151e;
   background: #0d151e;
   border-radius: 10px;
   margin-top: 32px;
