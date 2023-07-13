@@ -544,7 +544,7 @@ form textarea {
 
   .about-page {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 40% 60%;
     padding-left: 142px;
     padding-right: 142px;
   }
