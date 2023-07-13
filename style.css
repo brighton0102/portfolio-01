@@ -41,6 +41,10 @@ header {
   height: 70px;
 }
 
+.desktop-nav {
+  display: none;
+}
+
 .logo {
   font-weight: 700;
   font-size: 18px;
@@ -118,20 +122,25 @@ ul {
   background-color: #fff;
   margin-right: 24px;
   margin-left: 24px;
-  margin-bottom: 88px;
+  margin-bottom: 5.5rem;
   display: flex;
   flex-direction: column;
-  padding: 16px;
-  border-radius: 16px;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 .title-work-section {
-  padding-top: 12px;
+  padding-top: 0.75rem;
   font-family: Poppins, serif, sans serif;
   color: #172b4d;
   font-weight: 700;
-  line-height: 44px;
-  font-size: 32;
+  line-height: 2.75rem;
+  font-size: 2rem;
+}
+
+.card-works-image {
+  width: 100%;
+  height: auto;
 }
 
 .tech-field {
@@ -191,31 +200,51 @@ ul {
 }
 
 a button {
+  list-style-type: none;
+  color: #6070ff;
+  margin-right: 1.25rem;
+  font-size: 0.75rem;
+  background-color: #ebebff;
+  border-radius: 8px;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.card-work-info a {
   font-family: Poppins, serif, sans serif;
   background-color: #fff;
   border: 1px solid #6070ff;
   border-radius: 8px;
   color: #396df2;
-  padding: 12px;
   text-align: center;
-  text-decoration: none;
   cursor: pointer;
-  display: inline-block;
   font-weight: 500;
-  font-size: 16px;
-  margin-top: 28px;
-  margin-bottom: 28px;
-  transition: background-color 1s, color 1s;
+  font-size: 1rem;
+  display: inline-block;
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+  padding: 12px;
+  transition: background-color 0.15s, color 0.15s;
+  text-decoration: none;
 }
 
-a button:hover {
-  background-color: #6070ff;
+.card-work-info a:hover {
+  background-color: #396df2;
   color: #fff;
 }
 
-a button:active {
-  background-color: #2230d2;
+.card-work-info a:active {
+  opacity: 0.7;
+}
+
+button:hover {
+  background-color: #396df2;
   color: #fff;
+}
+
+button:active {
+  opacity: 0.7;
 }
 
 /* About Myself Section */
@@ -450,4 +479,109 @@ form textarea {
   background: #0d151e;
   border-radius: 10px;
   margin-top: 32px;
+}
+
+/* Desktop */
+
+@media screen and (min-width: 768px) {
+  .container {
+    background-image: url(/img/Header-bg.svg);
+    background-size: contain;
+    padding: 120px 260px 435px 260px;
+  }
+
+  header {
+    padding: 25px 155px 25px 155px;
+  }
+
+  .desktop-nav {
+    display: flex;
+  }
+
+  .card-works {
+    margin: 142px 142px 142px 142px;
+  }
+
+  .card-work-info {
+    margin-top: 30px;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .nav-items {
+    font-family: Poppins, serif, sans serif;
+    padding-left: 32px;
+    color: #344563;
+  }
+
+  .cards {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cards .info-right,
+  .cards .card-img-right {
+    order: 2;
+  }
+
+  .cards .info-left,
+  .cards .card-img-left {
+    order: 1;
+  }
+
+  .contact-me div {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .contact-btn {
+    margin-bottom: 135px;
+    align-items: center;
+  }
+
+  .about-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 142px;
+    padding-right: 142px;
+  }
+
+  .language-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .language-section {
+    margin-top: 165px;
+  }
+
+  .about-language {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-language h4 {
+    margin-right: 15px;
+    align-items: center;
+  }
+
+  .contact-me {
+    background-image: url(/img/contactFormBackgroundShapes.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+
+  .contact-btn-center {
+    text-align: center;
+  }
+
+  .end-bar {
+    display: none;
+  }
 }
