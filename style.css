@@ -574,6 +574,14 @@ form textarea {
     align-items: center;
   }
 
+  .language-img {
+    transition: all 2s ease-in-out;
+  }
+
+  .language-img:hover {
+    transform: rotate(360deg);
+  }
+
   .about-language h4 {
     margin-right: 15px;
     align-items: center;
