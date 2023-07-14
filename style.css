@@ -494,6 +494,14 @@ form textarea {
     padding: 25px 155px 25px 155px;
   }
 
+  a img {
+    transition: transform 0.7s;
+  }
+
+  a img:hover {
+    transform: translateY(-10px);
+  }
+
   .desktop-nav {
     display: flex;
   }
