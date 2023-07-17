@@ -7,6 +7,9 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+   - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -39,6 +42,14 @@
 - Use the semantics elements💯
 -  Use the linter for fixing errors .🚀
 - Use the flexbox to place the items 😃👍
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+You can find a live demo in [HERE](https://brighton0102.github.io/portfolio-01/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 

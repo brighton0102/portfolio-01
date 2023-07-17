@@ -384,7 +384,7 @@ button:active {
   border-top-left-radius: 90px;
   padding-top: 30px;
   padding-bottom: 10px;
-  background-image: url('./img/contact-form-shapes-mobile.svg');
+  background-image: url('./img/contact_form-shapes_mobile.svg');
   background-repeat: no-repeat;
   background-position-x: right;
 }
