@@ -384,7 +384,7 @@ button:active {
   border-top-left-radius: 90px;
   padding-top: 30px;
   padding-bottom: 10px;
-  background-image: url('./img/contact_form-shapes_mobile.svg');
+  background-image: url('img/contact-form-shapes-mobile.svg');
   background-repeat: no-repeat;
   background-position-x: right;
 }
@@ -485,7 +485,7 @@ form textarea {
 
 @media screen and (min-width: 768px) {
   .container {
-    background-image: url(/img/Header-bg.svg);
+    background-image: url(img/Header-bg.svg);
     background-size: contain;
     padding: 120px 260px 435px 260px;
   }
@@ -588,7 +588,7 @@ form textarea {
   }
 
   .contact-me {
-    background-image: url(/img/contactFormBackgroundShapes.svg);
+    background-image: url(img/contactFormBackgroundShapes.svg);
     background-repeat: no-repeat;
     background-size: 100% auto;
   }
