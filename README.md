@@ -55,14 +55,11 @@ You can find a live demo in [HERE](https://brighton0102.github.io/portfolio-01/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
-
 
 Example command:
 
