@@ -481,6 +481,65 @@ form textarea {
   margin-top: 32px;
 }
 
+/* mobile-menu*/
+
+@media screen and (max-width: 768px) {
+  .desktop-nav {
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    gap: 0;
+    flex-direction: column;
+    background: #6070ff;
+    mix-blend-mode: multiply;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100vh;
+    text-align: left;
+    transition: 0.3s;
+    padding-top: 106px;
+  }
+
+  .nav-items a {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .desktop-nav.active {
+    top: 0;
+  }
+
+  .nav-items {
+    margin: 5px 20px;
+  }
+
+  .burger {
+    display: block;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    z-index: 99;
+  }
+
+  .burger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .burger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    background-color: #fff;
+  }
+
+  .burger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    background-color: #fff;
+  }
+}
+
 /* Desktop */
 
 @media screen and (min-width: 768px) {
