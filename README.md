@@ -149,6 +149,12 @@ You can deploy this project using:
 - Twitter: [@ayaderaghul](https://twitter.com/ayaderaghul)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/linh-chi-n-371139180/)
 
+👤 **Jery Mey**
+
+- GitHub: [@githubhandle](https://github.com/jerymey)
+- Twitter: [@twitterhandle](https://twitter.com/jerymey4)
+- Linkedin: [@linkedin](www.linkedin.com/in/jery-mey-melachio-tchoffo-00055020a)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
