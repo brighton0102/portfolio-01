@@ -41,10 +41,6 @@ header {
   height: 70px;
 }
 
-.desktop-nav {
-  display: none;
-}
-
 .logo {
   font-weight: 700;
   font-size: 18px;
