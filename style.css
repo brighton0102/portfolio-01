@@ -526,12 +526,12 @@ form textarea {
   }
 
   .burger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
+    transform: translateY(7px) rotate(45deg);
     background-color: #fff;
   }
 
   .burger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-6px) rotate(-45deg);
     background-color: #fff;
   }
 }
