@@ -66,8 +66,6 @@ async function api() {
 
       `;
 
- 
-
       const element = document.querySelector('.card-works');
 
       element.innerHTML += cardTemplate;
@@ -75,7 +73,5 @@ async function api() {
     });
 
   }
-
- 
 
   api();
