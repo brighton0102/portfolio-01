@@ -1,12 +1,10 @@
 async function api() {
+  const response = await fetch('./utils/portfolio.json');
 
-    const response = await fetch('./utils/portfolio.json');
+  const jsonData = await response.json();
 
-    const jsonData = await response.json();
-
-    jsonData.data.portfolio.forEach((el, index) => {
-
-      const cardTemplate = `
+  jsonData.data.portfolio.forEach((el, index) => {
+    const cardTemplate = `
 
           <section class="cards">
 
@@ -66,12 +64,10 @@ async function api() {
 
       `;
 
-      const element = document.querySelector('.card-works');
+    const element = document.querySelector('.card-works');
 
-      element.innerHTML += cardTemplate;
+    element.innerHTML += cardTemplate;
+  });
+}
 
-    });
-
-  }
-
-  api();
+api();
