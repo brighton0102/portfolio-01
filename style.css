@@ -717,6 +717,10 @@ form textarea {
     order: 1;
   }
 
+  .description {
+    margin-bottom: 8px;
+  }
+
   .contact-me div {
     width: 40%;
     margin: 0 auto;
