@@ -457,6 +457,12 @@ form textarea {
   margin-top: 32px;
 }
 
+#error-msg {
+  width: 35rem;
+  position: relative;
+  right: 11rem;
+}
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -657,6 +663,20 @@ form textarea {
     background-color: #fff;
   }
 }
+
+.hidden {
+  display: none;
+}
+
+span {
+  color: black;
+}
+
+.displayer p {
+  color: red;
+  font-weight: 500;
+}
+
 
 /* Desktop */
 
