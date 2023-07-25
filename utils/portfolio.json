@@ -1,0 +1,89 @@
+{
+
+    "data": {
+
+      "portfolio":  [
+
+        {
+
+            "id": 1,
+
+            "name": "Tonic",
+
+            "subheading": ["CANOPY", "Back End Dev", 2015],
+
+            "technology": ["HTML", "CSS", "Javascript"],
+
+            "featured_image": "img/SnapshootPortfolio.svg",
+
+            "description": "A daily selection of privately personalized reads; no accounts or sign-ups required",
+
+            "details_upper": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
+
+            "details_lower": "lorem Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries "
+
+        },
+
+        {
+
+            "id": 2,
+
+            "name": "Multi-Post Stories",
+
+            "subheading": ["FACEBOOK", "Full Stack", 2015],
+
+            "technology": ["HTML", "CSS", "Javascript"],
+
+            "featured_image": "img/SnapshootPortfolio2.svg",
+
+            "description": "A daily selection of privately personalized reads; no accounts or sign-ups required",
+
+            "details_upper": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
+
+            "details_lower": "lorem Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries "
+
+        },
+
+        {
+
+            "id": 3,
+
+            "name": "Facebook 360",
+
+            "subheading": ["FACEBOOK", "Full Stack", 2015],
+
+            "technology": ["HTML", "CSS", "Javascript"],
+
+            "featured_image": "img/SnapshootPortfolio3.svg",
+
+            "description": "A daily selection of privately personalized reads; no accounts or sign-ups required",
+
+            "details_upper": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,  when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
+
+            "details_lower": "lorem Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries "
+
+        },
+
+        {
+
+            "id": 4,
+
+            "name": "Uber Navigation",
+
+            "subheading": ["Uber", "Lead Developer", 2015],
+
+            "technology": ["HTML", "CSS", "Javascript"],
+
+            "featured_image": "img/SnapshootPortfolio4.svg",
+
+            "description": "A daily selection of privately personalized reads; no accounts or sign-ups required",
+
+            "details_upper": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
+
+            "details_lower": "lorem Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries "
+
+        }
+
+      ]
+
+}}
