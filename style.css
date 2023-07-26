@@ -667,9 +667,11 @@ form textarea {
 .hidden {
   display: none;
 }
+
 span {
   color: black;
 }
+
 .displayer p {
   color: red;
   font-weight: 500;
