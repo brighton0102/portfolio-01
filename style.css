@@ -457,6 +457,12 @@ form textarea {
   margin-top: 32px;
 }
 
+#error-msg {
+  width: 35rem;
+  position: relative;
+  right: 11rem;
+}
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -658,6 +664,21 @@ form textarea {
   }
 }
 
+.hidden {
+  display: none;
+}
+
+span {
+  color: black;
+}
+
+.displayer p {
+  color: red;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
 /* Desktop */
 
 @media screen and (min-width: 768px) {
@@ -727,7 +748,7 @@ form textarea {
   }
 
   .contact-btn {
-    margin-bottom: 135px;
+    margin-bottom: 10px;
     align-items: center;
   }
 
@@ -772,6 +793,7 @@ form textarea {
     background-image: url(img/contactFormBackgroundShapes.svg);
     background-repeat: no-repeat;
     background-size: 100% auto;
+    height: 950px;
   }
 
   .contact-btn-center {

@@ -202,6 +202,7 @@
                 id="email"
                 required
                 placeholder="Email"
+                onkeydown="validation()"
               />
               <textarea
                 name="comment"
@@ -215,12 +216,16 @@
               <div class="contact-btn-center">
                 <button class="contact-btn" type="submit">Get in touch</button>
               </div>
+              <div class="displayer">
+                <p id="error-msg" class="hidden"> Hi, <span>Dear</span> your email must be in lowercase  check it again</p>
+              </div>
             </form>
           </div>   
         <hr class="end-bar" />
       </div>
     </section>
     <script src="./utils/menu.js"></script>
+    <script src="./utils/form.js"></script>
     <script src="./utils/modal.js"></script>
     <script src="./utils/generate_cards.js"></script>
 </body>
