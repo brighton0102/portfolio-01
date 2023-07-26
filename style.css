@@ -664,6 +664,17 @@ form textarea {
   }
 }
 
+.hidden {
+  display: none;
+}
+span {
+  color: black;
+}
+.displayer p {
+  color: red;
+  font-weight: 500;
+}
+
 /* Desktop */
 
 @media screen and (min-width: 768px) {
