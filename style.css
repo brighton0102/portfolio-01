@@ -675,6 +675,8 @@ span {
 .displayer p {
   color: red;
   font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 50px;
 }
 
 /* Desktop */
@@ -746,7 +748,7 @@ span {
   }
 
   .contact-btn {
-    margin-bottom: 135px;
+    margin-bottom: 10px;
     align-items: center;
   }
 
@@ -791,6 +793,7 @@ span {
     background-image: url(img/contactFormBackgroundShapes.svg);
     background-repeat: no-repeat;
     background-size: 100% auto;
+    height: 950px;
   }
 
   .contact-btn-center {
