@@ -1,7 +1,7 @@
 const burger = document.querySelector('.burger');
 const desktopNav = document.querySelector('.desktop-nav');
 
-burger.addEventListener('click', () => {
+.addEventListener('', () => {
   burger.classList.toggle('active');
   desktopNav.classList.toggle('active');
 });
