@@ -43,8 +43,8 @@ window.addEventListener("load", () => { // when the page has loaded
                 ${item.technology.map((res) => (`<li class="language">${res}</li>`))}
                 </ul>
                 <div class="modal-btn-container">
-                  <button class="modal-btn">See live <img height="20px" class="pl-left" src="img/live.png" alt="live"></button>
-                  <button class="modal-btn">See source <img height="20px" class="pl-left" src="img/source.png" alt="source"></button>
+                  <button class="modal-btn"><a href= "https://brighton0102.github.io/HTML-CSS-JavaScript-Capstone-Project/">See live</a><img height="20px" class="pl-left" src="img/live.png" alt="live"></button>
+                  <button class="modal-btn"><a href= "https://github.com/brighton0102/HTML-CSS-JavaScript-Capstone-Project">See Source</a><img height="20px" class="pl-left" src="img/source.png" alt="source"></button>
                 </div>
               </div>
             </div>

@@ -552,6 +552,11 @@ form textarea {
   color: #396df2;
 }
 
+.modal-btn a{
+  text-decoration: none;
+  color: #396df2;
+}
+
 .modal-btn-container {
   margin-top: 18px;
   display: flex;
